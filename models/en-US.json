@@ -1,0 +1,47 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "Starship",
+            "types": [
+
+            ],
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+
+                    ]
+                },
+                {
+                    "name": "RaiseShieldsIntent",
+                    "samples": [
+                        "Raise shields",
+                        "Raise the shields",
+                        "Shields to {percent} percent",
+                        "Set shields to {percent} percent",
+                        "put shields up",
+                        "Shields up"
+                    ],
+                    "slots": [
+                        {
+                            "name": "percent",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
