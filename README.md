@@ -1,3 +1,7 @@
+# Voice UI Intro
+
+The presentation can be found [here](https://github.com/evenlyio/voice-ui-intro/raw/master/slides.pdf)
+
 # Starship Skill
 
 This is a simple demo skill to demonstrate the basics of building an alexa skill. 
