@@ -17,8 +17,11 @@ var handlers = {
     },
     'RaiseShieldsIntent': function () {
         
-        if (this.event.request.intent.slots["percent"]) {
+        if (this.event.request.intent.slots["percent"] &&
+            this.event.request.intent.slots["percent"].value) 
+        {
             let percent = this.event.request.intent.slots.percent.value;
+            
             if (percent >= 100) {
                 this.response.speak('Shields are at maximum, Captain!')
                              .cardRenderer('Shields are at maximum, Captain!', 'Shield status 100%.');    
